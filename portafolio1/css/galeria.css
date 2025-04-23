@@ -1,0 +1,28 @@
+/* portafolio */
+.portafolio{
+    border-top: 5px solid #3eee3e;
+    background: #fff;
+}
+.portafolio .titulo{
+    color: #005385;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+}
+.portafolio .galeria .contenedor-imagen{
+    max-height: 400px;
+    /* el overflow elimina el sobrante de la imagen */
+    overflow: hidden;
+}
+.portafolio .galeria .contenedor-imagen a{
+    background: #005385;
+    display: inline-block;
+}
+.portafolio .galeria .contenedor-imagen :hover{
+    opacity: .7;
+}
+/* ventana modal  */
+.modal-dialog{
+max-width: 1000px;
+height: 1000px;
+}
